@@ -1,0 +1,304 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.header-container {
+    position: fixed;
+    width: 100%;
+    margin: -10px auto;
+    height: 50px;
+    padding: 5px 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.side-menu-container {
+    position: fixed;
+    width: 70px;
+    height: auto;
+}
+
+.logo-container {
+    position: absolute;
+    left: 100px;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.header-logo {
+    /* position: absolute; */
+    width: 120px;
+}
+
+.three-bar-menu {
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    left: 18px;
+}
+
+.searchbar {
+    position: absolute;
+    padding: 5px;
+    width: 300px;
+    top: 10px;
+    left: 300px;
+    border: 1px solid gainsboro;
+}
+
+.magnifier-block {
+    position: absolute;
+    left: 611px;
+    border: 1px solid black;
+    width: 60px;
+    height: 26px;
+    top: 10px;
+    border: 1px solid gainsboro;
+    background-color: silver;
+}
+
+.magnifier {
+    width: 45%;
+    position: relative;
+    left: 15px;
+}
+
+.shrink-profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+} 
+
+.notification-bell {
+    width: 30px;
+    position: absolute;
+    right: 90px;
+    top: 10px;
+}
+
+.upload-icon {
+    width: 40px;
+    position: absolute;
+    right: 150px;
+    top: 5px;
+}
+
+.home-icon,
+.home-words, 
+.explore-icon, 
+.explore-words, 
+.library-icon,
+.library-words {
+    position: absolute;
+}
+
+.home-container {
+    position: absolute;
+    top: 100px;
+    width: 73px;
+    height: 70px;
+    margin-left: -10px;
+    text-decoration: none;
+    color: black;
+}
+
+.explore-container {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 170px;
+    width: 73px;
+    height: 70px;
+    margin-left: -10px;
+    text-decoration: none;
+    color: black;
+}
+
+.library-container {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 240px;
+    width: 73px;
+    height: 70px;
+    margin-left: -10px;
+    text-decoration: none;
+    color: black;
+}
+
+.home-container:hover, 
+.explore-container:hover,
+.library-container:hover {
+    background-color: silver;
+}
+
+.home-icon {
+    width: 60%;
+    top: 5px;
+    left: 10px;
+}
+
+.home-words {
+    left: 15px;
+    top: 50px;
+    font-size: small;
+}
+
+.explore-icon {
+    width: 60%;
+    top: 5px;
+    left: 10px;
+}
+
+.explore-words {
+    left: 10px;
+    top: 50px;
+    font-size: small;
+}
+
+.library-icon {
+    width: 60%;
+    top: 5px;
+    left: 10px;
+}
+
+.library-words {
+    top: 50px;
+    left: 10px;
+    font-size: small;
+}
+
+.profile-logo {
+    position: absolute;
+    height: 300px;
+    width: 95%;
+    left: 70px;
+    top: 60px;
+    background-image: url("https://cdn3.movieweb.com/i/article/uRDNztyT3IR0068s4VWNuFFC6ejqaB/1200:100/Infinity-Saga-Blu-Ray-Box-Set-Cover-Art.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+}
+
+.profile-menu,
+.profile-menu-collections {
+    position: absolute;
+    height: 165px;
+    width: 95%;
+    top: 360px;
+    left: 70px;
+    background-color: #f5f5f5;
+}
+
+.profile-menu-collections {
+    top: 60px;
+}
+
+.video-menu, .video-menu-collections {
+    position: absolute;
+    height: auto;
+    width: 95%;
+    top: 525px;
+    left: 70px;
+    background-color: #ebebeb;
+}
+
+.video-menu-collections {
+    top: 220px;
+}
+
+.profile-menu-logo {
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+
+.profile-name, .profile-subscriber-count {
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+
+.profile-subscriber-count {
+    top: 50px;
+}
+
+.profile-subscribe-button {
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    width: 110px;
+    height: 35px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    font-weight:600;
+}
+
+.profile-subscribe-button:hover,
+.logo-container:hover,
+.upload-icon:hover,
+.video:hover {
+    box-shadow: 0px 0px 20px black;
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 125px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+}
+
+.nav-button:visited {
+    text-decoration: none;
+}
+
+.nav-button:hover,
+.video-caption:hover {
+    border-bottom: 3px solid black;
+}
+
+.most-liked-title {
+    text-align: center;
+}
+
+.main-table {
+    margin: auto;
+    border-spacing: 50px;
+}
+
+.video-caption {
+    text-decoration: none;
+    color: black;
+}
+
+.td {
+    text-align: center;
+}
+
+.single-videos {
+    text-align: center;
+}
+
+.form-container {
+    text-align: center;
+    margin: 0 250px;
+    padding: 10px 0 50px;
+}
+
+/* form */
+
+/* 
+
+4. Then start transfer to three collections
+*/
